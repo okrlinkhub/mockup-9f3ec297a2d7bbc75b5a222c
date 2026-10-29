@@ -1,0 +1,64 @@
+{
+  "title": "Registro delle attività",
+  "description": "Prototipo dimostrativo per consultare, filtrare e aggiungere attività di un team immaginario.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "attivita",
+      "title": "Attività",
+      "description": "Riepilogo delle attività e modulo locale per aggiungere nuovi esempi.",
+      "metrics": [
+        {
+          "label": "Attività totali",
+          "value": "4"
+        },
+        {
+          "label": "In corso",
+          "value": "2"
+        },
+        {
+          "label": "Completate",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Stato",
+        "Responsabile",
+        "Priorità"
+      ],
+      "rows": [
+        [
+          "Mappare idee per Lumo",
+          "In corso",
+          "Ruolo A",
+          "Media"
+        ],
+        [
+          "Preparare schema per Vela",
+          "Da avviare",
+          "Ruolo B",
+          "Alta"
+        ],
+        [
+          "Rivedere appunti di Nubi",
+          "Completata",
+          "Ruolo A",
+          "Bassa"
+        ],
+        [
+          "Definire prossimi passi per Tasso",
+          "In corso",
+          "Ruolo B",
+          "Media"
+        ]
+      ],
+      "form": [
+        "Attività",
+        "Stato",
+        "Responsabile",
+        "Priorità"
+      ]
+    }
+  ]
+}
